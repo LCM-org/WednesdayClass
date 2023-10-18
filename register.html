@@ -1,0 +1,97 @@
+<html>
+
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <style>
+
+        input[type=text], select, textarea, input[type=password] {
+            width: 50%;
+            margin-left: 10px;
+            border: solid black;
+            border-radius: 5px;
+        }
+        label, input, select, textarea {
+            margin-top: 5px;
+        }
+
+        input[type=submit]{
+            background-color: coral;
+            border: solid black;
+            cursor: pointer;
+            box-shadow: 3px 3px;
+        }
+
+        
+
+
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <header>
+        <img src="images/logo.jpeg" alt="Logo for Website" width="300" height="200">
+        <div>
+            <h1 class="title_class">Welcome to My Demo Website</h1>
+            <h1 class="title_footer_note">Since 1997! ISO certified Government Institue</h1>
+        </div>
+    </header>
+
+    <!--Navigation Tag is for Nav Menus -->
+    <nav>
+        <!--Creating Unordered List -->
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <!--LI tag means List Item-->
+            <li><a href="#Courses">Courses</a></li>
+            <li style="background-color: #ffffff;"><a href="register.html">Register</a></li>
+            <li><a href="#About us">About us</a></li>
+            <li><a href="#Contact us">Contact us</a></li>
+            <li><a href="#Feedback">Feedback</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="register_heading">Register Here for offers !!!</div>
+
+        <div class="register_form">
+            <form>
+                <label>First Name</label><input placeholder="Enter First Name" type="text"><br>
+                <label>Last Name</label><input type="text"><br>
+                <label>Email Id</label><input type="text"><br>
+                <label>Password</label><input type="password"><br>
+
+                <label>Address Line1</label><input type="text"><br>
+                <label>Address Line2</label><input type="text"><br>
+
+                <label>Full Address</label><textarea rows="3">Enter Full Address Here</textarea><br>
+
+                <label>City</label>
+                <select>
+                    <option>Vancouver</option>
+                    <option>Toronto</option>
+                    <option>Calgary</option>
+                    <option>Montreal</option>
+                </select><br>
+                <label>Gender</label>
+                <input type="radio" name="gender" value="Male"><label>Male</label>
+                <input type="radio" name="gender" value="Female"><label>Female</label><br>
+
+                <input type="submit" value="Submit Here">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+</body>
+
+
+</html>
