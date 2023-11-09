@@ -1,0 +1,67 @@
+<html>
+    
+    <head>
+    <title>Responsive Webpage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        .first {
+            background-color: red;
+            padding: 20px;
+            width: 20%;
+            float: left;
+        }
+        .second {
+            background-color: grey;
+            padding: 20px;
+            width: 60%;
+            float: left;
+        }
+        .third {
+            background-color: red;
+            padding: 20px;
+            width: 20%;
+            float: left;
+        }
+
+        /* For Mobile screens   */
+
+        @media screen and (max-width: 800px) {
+
+           .first, .second , .third {
+            width: 100%;
+            margin-top: 10px;
+            text-align: center;
+           }
+
+        }
+
+
+    </style>
+
+
+
+<body>
+    <h2>View Port Example</h2>
+    <p>Test content to see the viewport behavior</p>
+
+    <div class="first">
+        <p>First Div</p>
+    </div>
+    <div class="second">
+        <p>Second Div</p>
+    </div>
+    <div class="third">
+        <p>Third Div</p>
+    </div>
+
+
+</body>
+
+
+</html>
